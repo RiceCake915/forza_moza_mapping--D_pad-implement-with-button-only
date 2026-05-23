@@ -6,6 +6,8 @@
 
 Forza Horizon 6 has issues with Moza wheels zooming in constantly on the map and revving engine in upgrade room, this is because Right Trigger is bound to steering axis and never 0. This fix will map the right trigger to throttle as expected, and will additionally map left trigger to brake, allowing you to zoom in and out on the map with your pedals.
 
+Update 05/23/26: Figured out binds for car meets, everything works in car meets except navigating other cars, this is just broken on a system level for wheels right now. The Hide Ui and Reset Damage binds are the paddle shifters. Now uses DPAD inputs instead of button inputs, so Anna / Forza Link directions show properly. Haven't tested it yet but Eliminator upgrade binds and other dpad navigational stuff should be fixed now. Be sure to rebind your controls if you are updating the config.
+
 ## Forza Horizon 5
 
 Moza or MSFT introduced a bug in Forza Horizon 5 on 25th of April 2025 which has several issues with the Moza Steering Wheel button mapping.
