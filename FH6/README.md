@@ -12,4 +12,4 @@ Also adds binds for:
 **Original Configs** folder has a backup of the original game configs in case you forgot to back them up and something breaks
 
 
-**CSLv2** folder is a testing ground to get better rim compatibility and more info will be put here once that's figured out
+**CSv2** folder is a testing ground to get better rim compatibility and more info will be put here once that's figured out
