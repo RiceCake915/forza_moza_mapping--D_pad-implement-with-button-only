@@ -1,16 +1,20 @@
-The loose files on this page are updated Forza Horizon 6 to fix:
+#Fixes
 
 - DPAD navigation
 - Engine revving in upgrade menu
 - Map automatically zooming in (zoom in with throttle now)
 
-Also adds binds for:
+#Adds
+
 - Map zoom out with brake
 - Car Meets
 
-These are primarily tailored to the ES Steering Wheel. I will create new folders as specific rim compatibility develops
+#Original Configs
+backups of the original game configs in case you forgot to back them up and something breaks
 
-**Original Configs** folder has a backup of the original game configs in case you forgot to back them up and something breaks
-
-
-**CSv2** folder is a testing ground to get better rim compatibility and more info will be put here once that's figured out
+#If you can't get the game to work with your wheel
+- Go to [Gamepad Tester](https://hardwaretester.com/gamepad)
+- You'll see a device name, for example: `346e-0004-MOZA R5 Base`
+- Compare the beginning 4 numbers to the `VidPid` in the config you downloaded, for example: `VidPid="0x346e0004"`
+- The last 4 digits need to match the device that Gamepad Tester shows. If not, Replace All with the correct number.
+- Re-merge the zip with the new config, rebind your controls, and it should be properly detected.
