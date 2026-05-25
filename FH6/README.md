@@ -3,11 +3,12 @@
 - DPAD navigation
 - Engine revving in upgrade menu
 - Map automatically zooming in (zoom in with throttle now)
+- Fixes binds for Eliminator
 
 # Adds
 
 - Map zoom out with brake
-- Car Meets
+- Car Meets bind
 
 # Original Configs
 backups of the original game configs in case you forgot to back them up and something breaks
