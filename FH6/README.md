@@ -1,6 +1,6 @@
 # Fixes
 
-- DPAD navigation
+- DPad navigation
 - Engine revving in upgrade menu
 - Map automatically zooming in (zoom in with throttle now)
 - Fixes binds for Eliminator
