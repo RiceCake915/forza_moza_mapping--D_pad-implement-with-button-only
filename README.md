@@ -4,9 +4,17 @@
 
 ## Forza Horizon 6
 
-Forza Horizon 6 has issues with Moza wheels zooming in constantly on the map and revving engine in upgrade room, this is because Right Trigger is bound to steering axis and never 0. This fix will map the right trigger to throttle as expected, and will additionally map left trigger to brake, allowing you to zoom in and out on the map with your pedals.
+### Fixes
 
-Update 05/23/26: Figured out binds for car meets, everything works in car meets except navigating other cars, this is just broken on a system level for wheels right now. The Hide Ui and Reset Damage binds are the paddle shifters. Now uses DPAD inputs instead of button inputs, so Anna / Forza Link directions show properly. Haven't tested it yet but Eliminator upgrade binds and other dpad navigational stuff should be fixed now. Be sure to rebind your controls if you are updating the config.
+- DPad navigation
+- Engine revving in upgrade menu
+- Map automatically zooming in (zoom in with throttle now)
+- Fixes binds for Eliminator
+
+### Adds
+
+- Map zoom out with brake
+- Car Meets bind
 
 ## Installation
 
@@ -23,3 +31,14 @@ Drive:\SteamLibrary\steamapps\common\ForzaHorizon6\media\inputmappingprofiles.zi
 Here is a short video of how to install and remap the controls:
 
 https://youtu.be/HveJplZZjtQ?si=DOeNxcCIr_7cYOFw
+
+## Original Configs
+backups of the original game configs in case you forgot to back them up and something breaks
+
+## If you can't get the game to work with your wheel
+- Go to [Gamepad Tester](https://hardwaretester.com/gamepad)
+- You'll see a device name, for example: `346e-0004-MOZA R5 Base`
+- Compare the beginning 4 numbers to the `VidPid` in the config you downloaded, for example: `VidPid="0x346e0004"`
+- The last 4 digits need to match the device that Gamepad Tester shows. If not, Replace All with the correct number.
+- Re-merge the zip with the new config, rebind your controls, and it should be properly detected.
+
