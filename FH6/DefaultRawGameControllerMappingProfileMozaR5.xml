@@ -30,13 +30,13 @@
 	<!-- 喇叭，车辆鸣笛功能 -->
     <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0004" InputType="Button" Index="20" />
 	<!-- 激活 ANNA 系统 -->
-	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up"/>
+	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="4" />
 	<!-- 切换遥测数据显示 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- 切换上一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 切换下一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0004" InputType="Button" Index="5" />
 	
 	<!-- 激活某个功能 -->
     <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="23" />
@@ -66,34 +66,34 @@
 
   <Context Version="1" Context="INPUTCONTEXT_RACING_UI">
     <!-- 激活 ANNA 系统 -->
-	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+	<Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- 切换拍照模式 -->
-    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- Key激活快速聊天功能 -->
-    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 电台切换至下一首 -->
-    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0004" InputType="Button" Index="5" />
   </Context>
   
   <Context Version="1" Context="INPUTCONTEXT_ANNA">
     <!-- ANNA选项1 -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_1" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_1" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- ANNA选项2  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_2" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_2" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- ANNA选项3  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_3" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_3" VidPid="0x346e0004" InputType="Button" Index="5" />
 	<!-- ANNA选项4  -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_4" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ITEM_4" VidPid="0x346e0004" InputType="Button" Index="6" />
   </Context>
   
 
   <Context Version="1" Context="INPUTCONTEXT_COPTER">
     <!-- 切换拍照模式 -->
-    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_PHOTO_MODE_TOGGLE" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- 激活快速聊天功能 -->
-    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_QUICKCHAT_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 电台切换至下一首 -->
-    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_RADIO_RIGHT" VidPid="0x346e0004" InputType="Button" Index="5" />
   </Context>
   
   <!-- 自由视角下相关操作 --> 
@@ -116,11 +116,11 @@
     
   <Context Version="1" Context="INPUTCONTEXT_ELIMINATOR_UI">
     <!-- 在淘汰者界面中选择升级选项向左操作 -->
-    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_LEFT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_LEFT" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 在淘汰者界面中选择升级选项向下操作 -->
-    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_DOWN" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_DOWN" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- 在淘汰者界面中选择升级选项向右操作 -->
-    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_RIGHT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_ELIMINATOR_UPGRADECHOICE_RIGHT" VidPid="0x346e0004" InputType="Button" Index="5" />
   </Context>
   
   <Context Version="1" Context="INPUTCONTEXT_PROP_PLACEMENT_UI">
@@ -141,16 +141,16 @@
       <Value Version="1" Key="INPUTCMD_PP_SAVE_AND_EXIT" VidPid="0x346e0004" InputType="Button" Index="2" />      
       
       <!-- 在放置模式下逆时针旋转道具 -->      
-      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_LEFT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_LEFT" VidPid="0x346e0004" InputType="Button" Index="6" />
       
       <!-- 在放置模式下顺时针旋转道具 -->
-      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_RIGHT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />      
+      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_RIGHT" VidPid="0x346e0004" InputType="Button" Index="5" />      
             
       <!-- 在放置模式下抬高道具 -->      
-      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_UP" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />      
+      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_UP" VidPid="0x346e0004" InputType="Button" Index="4" />      
       
       <!-- 在放置模式下降低道具 -->      
-      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_DOWN" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />      
+      <Value Version="1" Key="INPUTCMD_PP_TRANSFORM_DOWN" VidPid="0x346e0004" InputType="Button" Index="7" />        
 
       <!-- 向左滚动 -->
       <Value Version="1" Key="INPUTCMD_PP_ROLL_LEFT" VidPid="0x346e0004" InputType="Button" Index="23" />
@@ -199,13 +199,13 @@
   <Context Version="1" Context="INPUTCONTEXT_UI">
   
 	<!-- UI 界面中方向键上的按下操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_DPAD_UP_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_UP_PRESS" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- UI 界面中方向键下的按下操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_DPAD_DOWN_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_DOWN_PRESS" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- UI 界面中方向键左的按下操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_DPAD_LEFT_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_LEFT_PRESS" VidPid="0x346e0004" InputType="Button" Index="7" />
 	<!-- UI 界面中方向键右的按下操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_DPAD_RIGHT_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_UI_DPAD_RIGHT_PRESS" VidPid="0x346e0004" InputType="Button" Index="5" />
 	
 	
     <!-- UI 界面中确定键的按下操作 -->
@@ -241,53 +241,53 @@
     <Value Version="1" Key="INPUTCMD_UI_BACK_REPEAT" VidPid="0x346e0004" InputType="Button" Index="18" />
 	
 	<!-- UI 界面中向上的操作（与方向键操作可能有不同适用场景） -->
-    <Value Version="1" Key="INPUTCMD_UI_UP_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_UI_UP_PRESS" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- UI 界面中向上操作的释放 -->
-    <Value Version="1" Key="INPUTCMD_UI_UP_RELEASE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_UI_UP_RELEASE" VidPid="0x346e0004" InputType="Button" Index="4" />
 	<!-- UI 界面中向上操作的重复 -->
-    <Value Version="1" Key="INPUTCMD_UI_UP_REPEAT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_UI_UP_REPEAT" VidPid="0x346e0004" InputType="Button" Index="4" />
     
     <!-- UI 界面中向下的操作（与方向键操作可能有不同适用场景） -->
-    <Value Version="1" Key="INPUTCMD_UI_DOWN_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_PRESS" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- UI 界面中向下操作的释放 -->
-    <Value Version="1" Key="INPUTCMD_UI_DOWN_RELEASE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_RELEASE" VidPid="0x346e0004" InputType="Button" Index="6" />
 	<!-- UI 界面中向下操作的重复 -->
-    <Value Version="1" Key="INPUTCMD_UI_DOWN_REPEAT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_UI_DOWN_REPEAT" VidPid="0x346e0004" InputType="Button" Index="6" />
     
     <!-- UI 界面中向左的操作（与方向键操作可能有不同适用场景） -->
-    <Value Version="1" Key="INPUTCMD_UI_LEFT_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_PRESS" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- UI 界面中向左操作的释放 -->
-    <Value Version="1" Key="INPUTCMD_UI_LEFT_RELEASE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_RELEASE" VidPid="0x346e0004" InputType="Button" Index="7" />
 	<!-- UI 界面中向左操作的重复 -->
-    <Value Version="1" Key="INPUTCMD_UI_LEFT_REPEAT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_UI_LEFT_REPEAT" VidPid="0x346e0004" InputType="Button" Index="7" />
     
     <!-- UI 界面中向右的操作（与方向键操作可能有不同适用场景） -->
-    <Value Version="1" Key="INPUTCMD_UI_RIGHT_PRESS" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_PRESS" VidPid="0x346e0004" InputType="Button" Index="5" />
     <!-- UI 界面中向右操作的释放 -->
-    <Value Version="1" Key="INPUTCMD_UI_RIGHT_RELEASE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_RELEASE" VidPid="0x346e0004" InputType="Button" Index="5" />
 	 <!-- UI 界面中向右操作的重复 -->
-    <Value Version="1" Key="INPUTCMD_UI_RIGHT_REPEAT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_UI_RIGHT_REPEAT" VidPid="0x346e0004" InputType="Button" Index="5" />
 	
     <!-- 在与积木挑战相关的 UI 中向上操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_UP" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_UP" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- 在与积木挑战相关的 UI 中向左操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_LEFT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_LEFT" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 在与积木挑战相关的 UI 中向下操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_DOWN" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_DOWN" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- 在与积木挑战相关的 UI 中向右操作 -->
-    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_RIGHT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_UI_BRICKCHALLENGES_RIGHT" VidPid="0x346e0004" InputType="Button" Index="5" />
 
 	<!-- 可能是类似于重置或撤销 -->
     <Value Version="1" Key="INPUTCMD_MULLIGAN" VidPid="0x346e0004" InputType="Button" Index="3" />
 	
 	<Value Version="1" Key="INPUTCMD_UI_MAP_MOVE_LEFTRIGHT">
-		<InputCmdLow VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
-		<InputCmdHigh VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+		<InputCmdLow VidPid="0x346e0004" InputType="Button" Index="7" />
+		<InputCmdHigh VidPid="0x346e0004" InputType="Button" Index="5" />
 	</Value>
 	
 	<Value Version="1" Key="INPUTCMD_UI_MAP_MOVE_UPDOWN">
-		<InputCmdLow VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
-		<InputCmdHigh VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+		<InputCmdLow VidPid="0x346e0004" InputType="Button" Index="6" />
+		<InputCmdHigh VidPid="0x346e0004" InputType="Button" Index="4" />
 	</Value>
     
 	<!-- UI 界面中 X 按键的按下操作 -->
@@ -354,13 +354,13 @@
     <!-- 喇叭，车辆鸣笛功能 -->
     <Value Version="1" Key="INPUTCMD_HORN" VidPid="0x346e0004" InputType="Button" Index="20" />
 	<!-- 激活 ANNA 系统 -->
-    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Up" />
+    <Value Version="1" Key="INPUTCMD_ANNA_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="4" />
     <!-- 切换遥测数据显示，可能用于显示或隐藏车辆性能等相关数据 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Down" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_TOGGLE" VidPid="0x346e0004" InputType="Button" Index="6" />
     <!-- 切换上一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Left" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_PREV" VidPid="0x346e0004" InputType="Button" Index="7" />
     <!-- 切换下一个遥测数据项 -->
-    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0004" InputType="Switch" Index="0" SwitchPosition="Right" />
+    <Value Version="1" Key="INPUTCMD_TELEMETRY_NEXT" VidPid="0x346e0004" InputType="Button" Index="5" />
 
     <!-- 激活某个功能 -->
     <Value Version="1" Key="INPUTCMD_ACTIVATE" VidPid="0x346e0004" InputType="Button" Index="0" />
