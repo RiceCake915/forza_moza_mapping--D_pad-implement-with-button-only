@@ -2,9 +2,9 @@
 
 # IMPORTANT! You have to remap your controls in game after replacing the config file! Otherwise it will not work!
 
-
-Only edited the Moza R5 config for D_pad *InputType* from switch to button, as I cannot get the original to work with switch InputType to have the d_pad icon on Anna and Link function.
-
+- Only edited the Moza R5 config for D_pad *InputType* from switch to button.
+- I cannot get the original to work with the switch InputType to have the d-pad icon on Anna and Link function.
+- So no d-pad icon on Anna and Link function.
 
 ## Forza Horizon 6
 
