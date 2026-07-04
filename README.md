@@ -1,10 +1,15 @@
-# Forza - Moza Mapping Config Files
+# Forza - Moza Mapping Config Files -- D-pad implement with button InputType only
+
+<br>
+
+- Only edited the Moza R5 config for D_pad *InputType* from switch to button after comparing the original and goodluckNito versions.
+- I cannot get the original to work with the switch *InputType* to have the d-pad icon on Anna and Link function, So no d-pad icon on Anna and Link function.
+- Other functions and fixes should work as intended.
+
+<br>
 
 # IMPORTANT! You have to remap your controls in game after replacing the config file! Otherwise it will not work!
 
-- Only edited the Moza R5 config for D_pad *InputType* from switch to button.
-- I cannot get the original to work with the switch InputType to have the d-pad icon on Anna and Link function.
-- So no d-pad icon on Anna and Link function.
 
 ## Forza Horizon 6
 
